@@ -30,15 +30,16 @@ export default function Hero() {
 
             {/* Name */}
             <h1
-              className={`font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase text-cream leading-[0.95] mb-6 transition-all duration-[900ms] ${
-                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-              }`}
-              style={{ transitionDelay: '150ms' }}
-            >
-              Alex
-              <br />
-              Morgan
-            </h1>
+  className={`font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase text-cream leading-[0.95] mb-6 transition-all duration-[900ms] ${
+    isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+  }`}
+  style={{ transitionDelay: '150ms' }}
+>
+  Andrean Rayhan
+  <br />
+  Wijaya
+</h1>
+
 
             {/* Tagline */}
             <p
